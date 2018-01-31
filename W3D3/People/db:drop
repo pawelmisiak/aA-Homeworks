@@ -1,0 +1,16 @@
+Dropped database 'People_development'
+Dropped database 'People_test'
+Created database 'People_development'
+Created database 'People_test'
+-- enable_extension("plpgsql")
+   -> 0.0333s
+-- create_table("houses", {:force=>:cascade})
+   -> 0.0144s
+-- create_table("people_tables", {:force=>:cascade})
+   -> 0.0054s
+-- enable_extension("plpgsql")
+   -> 0.0320s
+-- create_table("houses", {:force=>:cascade})
+   -> 0.0138s
+-- create_table("people_tables", {:force=>:cascade})
+   -> 0.0096s
